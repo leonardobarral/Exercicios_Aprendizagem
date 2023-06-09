@@ -14,11 +14,14 @@
     <div>
         <h2>Lista de Exercícios</h2>
         <py-script>
-            
-            import os
+            import sys
+            sys.path.append('./')
 
-            diretorio_atual = os.getcwd()
-            print('Diretório atual:', diretorio_atual)
+            export PYTHONPATH="./"
+            python arquivo.py
+
+            import arquivo
+            print(arquivo.lista_de_exercicio())
 
         </py-script>
         <ul id="menu">

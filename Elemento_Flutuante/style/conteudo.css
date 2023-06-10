@@ -1,11 +1,10 @@
 .container{
-    height: 100%;
+    height: calc(100% - (3rem + 5px));
     width: 100%;
     box-sizing: border-box;
     background-color: rgba(104, 103, 103, 0.486);
     padding: 1%;
     gap: 1%;
-
     display: flex;
 }   
 .bloco{
